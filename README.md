@@ -1,0 +1,1 @@
+Usage: http://example.com/route53/ddns53.php?id=__USERNAME__&secret=__PASSWORD__&zone=YOURZONEID&hostname=__HOSTNAME__&myip=__MYIP__
