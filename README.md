@@ -26,7 +26,7 @@ These are the descriptions of the variables that you must fill before calling th
 
 ##### DDNS53 Optional Settings
 1. __synology__ - Enables Synology Error Messages (0 or 1, optional)
-2. __debug__ - Enabled Debug Mode (optional)
+2. __debug__ - Enabled Debug Mode (0 or 1, optional)
 
 ## Get Amazon Access Keys
 Coming Soon!
@@ -40,6 +40,9 @@ There are plenty of ways on how to use this script, but to properly access this 
 ```
 http://127.0.0.1/ddns53.php?id=ACCESS_KEY&secret=SECRET_KEY&zone=ZONE_ID&hostname=HOSTNAME&type=HOST_TYPE&newip=NEWIP&synology=SYNOLOGY&debug=DEBUG
 ```
+
+NOTE: __127.0.0.1__ is an example. Each server's local IP address is UNIQUE and YOU MUST manually retrieve it. Usually the values start with __192.168.1.2__, but it could depend on each server.
+NOTE 2: The capitalized words inside the URL are the variables you need to replace for this script to work.
 
 ## Credits and Appreciation
 The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/). Please credit them for their work and appreciation.
