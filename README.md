@@ -45,7 +45,7 @@ NOTE: You may copy these security credentials or click the "Download Credentials
 2. Find the "Hosted Zone ID" column.
 3. Fill out the __zone__ field with the Zone ID.
 
-NOTE: If you do not have a Hosted Zone, you may create one manually, and link the nameserver's with your domain name. Or transfer your domain to Amazon (even easier)!
+NOTE: If you do not have a Hosted Zone, you may create one manually, and link the nameserver's with your domain name. You can even transfer your domain to Amazon (even easier)!
 
 ## How to Use this Script
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
@@ -56,7 +56,7 @@ http://127.0.0.1/ddns53.php?id=ACCESS_KEY&secret=SECRET_KEY&zone=ZONE_ID&hostnam
 
 NOTE: __127.0.0.1__ is an example. Each server's local IP address is UNIQUE and YOU MUST manually retrieve it. Usually the values start with __192.168.1.2__, but it could depend on each server and network configuration.
 
-NOTE 2: The capitalized words in-between the URL are the variables you need to replace. Follow the examples above!
+NOTE 2: The capitalized words in-between the URL are the variables you need to replace. Just follow the examples above!
 
 ## Credits and Appreciation
 The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/). Please credit them for their work and appreciation. Thanks!
