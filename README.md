@@ -37,7 +37,9 @@ Coming Soon!
 ## How to Use this Script
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
 
-http&#58;//127.0.0.1/ddns53.php?id=__id__&secret=__secret__&zone=__zone__&hostname=__hostname__&type=__type__&newip=__newip__&synology=__synology__&debug=__debug__
+```
+http://127.0.0.1/ddns53.php?id=__id__&secret=__secret__&zone=__zone__&hostname=__hostname__&type=__type__&newip=__newip__&synology=__synology__&debug=__debug__
+```
 
 ## Credits and Appreciation
-The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 script and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/).
+The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/). Please credit them for their work and appreciation.
