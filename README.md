@@ -38,7 +38,7 @@ Coming Soon!
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
 
 ```
-http://127.0.0.1/ddns53.php?id=__id__&secret=__secret__&zone=__zone__&hostname=__hostname__&type=__type__&newip=__newip__&synology=__synology__&debug=__debug__
+http://127.0.0.1/ddns53.php?id=ACCESS_KEY&secret=SECRET_KEY&zone=ZONE_ID&hostname=HOSTNAME&type=HOST_TYPE&newip=NEWIP&synology=SYNOLOGY&debug=DEBUG
 ```
 
 ## Credits and Appreciation
