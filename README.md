@@ -1,9 +1,9 @@
 DDNS53
 =======
 
-DDNS53 is a URL-based PHP script designed to update your server's external hostname (e.g. server.example.com) using Amazon's Route 53 DNS service. It works automatically by calling the script via a URL, authenticating using Amazon's IAM service, then changing the hostname value to the defined IP address. Additionally, it perfectly fits in with Synology NAS servers.
+DDNS53 is a URL-based PHP script designed to update your server's external hostname (e.g. server.example.com) using Amazon's Route 53 DNS service. It works automatically by calling the script via a URL, using Amazon's IAM service to authenticate, then changing the hostname value to the defined IP address. Additionally, it perfectly fits in with Synology NAS servers.
 
-__In other words, DDNS53 helps connect your web server's ever-changing IP address to a domain name.__
+__In other words, DDNS53 helps connect your server's ever-changing IP address to a domain name.__
 
 To use this script, here are the steps you need to follow:
 
@@ -12,7 +12,7 @@ To use this script, here are the steps you need to follow:
 3. Wait for the magic to begin!
 
 ## Retrieve Variables
-These are the descriptions of the variables that you need to find before calling the script. Examples are located below (next to the description). Please follow the exact format unless you know what you're doing. __If you need help, feel free to open an issue on GitHub!__
+These are the descriptions of the variables that you must fill before calling the script. Examples are located next to the description. Please follow the exact format unless you know what you're doing. __If you need help, feel free to open an issue on GitHub!__
 
 ##### DDNS53 Authentication
 1. __id__ - Access Key ID (e.g. AKIRIQC23QKODRLJRV4A)
@@ -35,11 +35,9 @@ Coming Soon!
 Coming Soon!
 
 ## How to Use this Script
-There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you request this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here are the examples:
+There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
 
-Usage: http://127.0.0.1/ddns53.php?id=__ACCESS KEY ID__&secret=__SECRET ACCESS KEY__&zone=__HOSTED ZONE ID__&hostname=__HOSTNAME__&type=__TYPE__&newip=__NEW IP ADDRESS__&debug=__DEBUG MODE__
-
-Synology: http://127.0.0.1/ddns53.php?id=__USERNAME__&secret=__PASSWORD__&zone=__YOURZONEID__&hostname=__HOSTNAME__&type=__type__&myip=__MYIP__
+http&#58;//127.0.0.1/ddns53.php?id=__id__&secret=__secret__&zone=__zone__&hostname=__hostname__&type=__type__&newip=__newip__&synology=__synology__&debug=__debug__
 
 ## Credits
 Coming Soon!
