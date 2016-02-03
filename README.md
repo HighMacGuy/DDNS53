@@ -29,10 +29,23 @@ These are the descriptions of the variables that you must fill before calling th
 2. __debug__ - Enabled Debug Mode (0 or 1, optional)
 
 ## Get Amazon Access Keys
-Coming Soon!
+1. Head to https://console.aws.amazon.com/iam/home
+2. In the sidebar, click on Users
+3. The click the blue button, "Create New Users".
+4. In the first field, type in a username.
+5. Keep "Generate an access key for each user", checked.
+6. Then, click "Create", bottom right corner.
+7. Click on "Show User Security Credentials" link.
+8. Fill out the __id__ and __secret__ fields.
+
+NOTE: You may copy these security credentials or click the "Download Credentials" button. If you lose these credentials, you can revoke access to them and create another one.
 
 ## Get Amazon Hosted Zone ID
-Coming Soon!
+1. Head to https://console.aws.amazon.com/route53/home#hosted-zones:
+2. Find the "Hosted Zone ID" column.
+3. Fill out the __zone__ field with the Zone ID.
+
+NOTE: If you do not have a Hosted Zone, you may create one manually, and link the nameservers with your domain name. Or transfer your domain to Amazon (even easier)!
 
 ## How to Use this Script
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
@@ -42,7 +55,8 @@ http://127.0.0.1/ddns53.php?id=ACCESS_KEY&secret=SECRET_KEY&zone=ZONE_ID&hostnam
 ```
 
 NOTE: __127.0.0.1__ is an example. Each server's local IP address is UNIQUE and YOU MUST manually retrieve it. Usually the values start with __192.168.1.2__, but it could depend on each server.
-NOTE 2: The capitalized words inside the URL are the variables you need to replace for this script to work.
+
+NOTE 2: The capitalized words in-between the URL are the variables you need to replace. Follow the examples above!
 
 ## Credits and Appreciation
-The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/). Please credit them for their work and appreciation.
+The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/). Please credit them for their work and appreciation. Thanks!
