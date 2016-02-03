@@ -1,7 +1,7 @@
 DDNS53
 =======
 
-DDNS53 is a URL-based PHP script designed to update your server's external hostname (e.g. server.example.com) using Amazon's Route 53 DNS service. It works automatically by calling the script via a URL (e.g. your web browser), authenticating using Amazon's IAM service, then changing the hostname value to the defined IP address. Additionally, it perfectly fits in with Synology NAS servers.
+DDNS53 is a URL-based PHP script designed to update your server's external hostname (e.g. server.example.com) using Amazon's Route 53 DNS service. It works automatically by calling the script via a URL, authenticating using Amazon's IAM service, then changing the hostname value to the defined IP address. Additionally, it perfectly fits in with Synology NAS servers.
 
 __In other words, DDNS53 helps connect your web server's ever-changing IP address to a domain name.__
 
