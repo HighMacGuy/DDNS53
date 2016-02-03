@@ -45,7 +45,7 @@ NOTE: You may copy these security credentials or click the "Download Credentials
 2. Find the "Hosted Zone ID" column.
 3. Fill out the __zone__ field with the Zone ID.
 
-NOTE: If you do not have a Hosted Zone, you may create one manually, and link the nameservers with your domain name. Or transfer your domain to Amazon (even easier)!
+NOTE: If you do not have a Hosted Zone, you may create one manually, and link the nameserver's with your domain name. Or transfer your domain to Amazon (even easier)!
 
 ## How to Use this Script
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is one example:
@@ -54,7 +54,7 @@ There are plenty of ways on how to use this script, but to properly access this 
 http://127.0.0.1/ddns53.php?id=ACCESS_KEY&secret=SECRET_KEY&zone=ZONE_ID&hostname=HOSTNAME&type=HOST_TYPE&newip=NEWIP&synology=SYNOLOGY&debug=DEBUG
 ```
 
-NOTE: __127.0.0.1__ is an example. Each server's local IP address is UNIQUE and YOU MUST manually retrieve it. Usually the values start with __192.168.1.2__, but it could depend on each server.
+NOTE: __127.0.0.1__ is an example. Each server's local IP address is UNIQUE and YOU MUST manually retrieve it. Usually the values start with __192.168.1.2__, but it could depend on each server and network configuration.
 
 NOTE 2: The capitalized words in-between the URL are the variables you need to replace. Follow the examples above!
 
