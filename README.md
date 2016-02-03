@@ -39,5 +39,5 @@ There are plenty of ways on how to use this script, but to properly access this 
 
 http&#58;//127.0.0.1/ddns53.php?id=__id__&secret=__secret__&zone=__zone__&hostname=__hostname__&type=__type__&newip=__newip__&synology=__synology__&debug=__debug__
 
-## Credits
-Coming Soon!
+## Credits and Appreciation
+The idea for this script came from [Holger Eilhard](http://holgr.com/)'s php-ddns53 script and the required library comes from Dan Myers's [Amazon Route 53 PHP Class](http://sourceforge.net/projects/php-r53/).
