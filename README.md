@@ -29,7 +29,7 @@ These are the descriptions of the variables that you must fill before calling th
 2. __debug__ - Enabled Debug Mode (0 or 1, optional)
 
 ## Get Amazon Access Keys
-1. Head to https://console.aws.amazon.com/iam/home
+1. Head to [Amazon Identity and Access Management](https://console.aws.amazon.com/iam/home)
 2. On the sidebar, click on the __Users__ link
 3. Then click the blue __Create New Users__ button
 4. In the first field, type in a username
@@ -41,7 +41,7 @@ These are the descriptions of the variables that you must fill before calling th
 NOTE: You may copy these security credentials or click the __Download Credentials__ button. If you lose these credentials, you can revoke access to the user then create another one.
 
 ## Get Amazon Hosted Zone ID
-1. Head to https://console.aws.amazon.com/route53/home#hosted-zones:
+1. Head to [Amazon Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:)
 2. Find the "Hosted Zone ID" column that corresponds to the domain name.
 3. Fill out the __zone__ field with the matching Zone ID.
 
