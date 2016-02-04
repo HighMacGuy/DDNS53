@@ -49,7 +49,7 @@ NOTE: If you do not have a Hosted Zone, please create one manually. Then link th
 
 NOTE 2: Don't forget to create a Record Set with either an A record (IPv4 address) or an AAAA record (IPv6 address). The "Name" column fills in the __hostname__ field and the "Type" column fills in the __type__ field.
 
-NOTE 3: When you copy the "Name" to the __hostname__ field, remember not to include the LAST DOT. For example, instead of this (__server.example.com.__), do this (__server.example.com__).
+NOTE 3: When you copy the "Name" to the __hostname__ field, remember not to include the LAST DOT. For example, instead of using __server.example.com.__ (note the period), use __server.example.com__.
 
 ## How to Use this Script
 There are plenty of ways on how to use this script, but to properly access this script, the authentication variables and the configuration variables must be set when you call this script. I have also included methods to enable Synology mode and debug mode for those who need them. Here is an example:
