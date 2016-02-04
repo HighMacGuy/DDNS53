@@ -29,7 +29,7 @@ These are the descriptions of the variables that you must fill before calling th
 2. __debug__ - Enabled Debug Mode (0 or 1, optional)
 
 ## Get Amazon Access Keys
-1. Head to [Amazon Identity and Access Management](https://console.aws.amazon.com/iam/home)
+1. Head to the [Amazon Identity & Access Management](https://console.aws.amazon.com/iam/home)
 2. On the sidebar, click on the __Users__ link
 3. Then click the blue __Create New Users__ button
 4. In the first field, type in a username
